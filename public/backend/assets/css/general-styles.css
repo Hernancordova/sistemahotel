@@ -1,0 +1,31 @@
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.user-select-none {
+  user-select: none;
+}
+
+.image-scale{
+  transform: scale(.9);
+  transition-duration: 300ms;
+}
+
+.image-scale:hover {
+  transform: scale(1.1);
+}
+
+
+input:focus::placeholder {
+  opacity: 0;
+  transition-property: all;
+  transition-duration: 300ms;
+}
+
+
+table thead tr th.column-date {
+  min-inline-size: 170px;
+  inline-size: 170px;
+  text-align: center;
+  vertical-align: middle;
+}

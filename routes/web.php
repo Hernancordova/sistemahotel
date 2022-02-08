@@ -11,11 +11,11 @@ Route::get('/', function () {
 
 Auth::routes(['register' => false]);
 
-Route::middleware(['auth'])->group(function () {
+// Route::middleware(['auth'])->group(function () {
   Route::resource('/dashboard', DashboardController::class);
   Route::resource('/usuario', UserController::class);
   Route::get('/profile',[DashboardController::class, 'profile'])->name('profile');
-});
+// });
 
 
 

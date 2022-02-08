@@ -35,12 +35,12 @@
           <div class="card-body">
             <div class="page-title ">
               <div class="card-title text-primary float-start">
-                <i class="fas fa-users"></i> Usuarios
+                <i class="fas fa-users"></i> Usuarios v1
               </div>
               <div>
                 <a href="{{ route('usuario.create') }}" class="btn btn-primary float-end">Nuevo <i class="fas fa-plus"></i></a>
-              </div>
-
+              </div>   
+                       
               @if (session('created'))
                 <div class="alert alert-success alert-dismissible fade show" role="alert">
                   {{ session('created') }}

@@ -39,7 +39,7 @@ class UserController extends Controller
     $users->password = Hash::make("fulltecnologia");
     $users->save();
 
-    return redirect()->route('usuario.index')->with('created', 'Registro guardado exitósamente.');
+    return redirect()->route('usuario.index')->with('created', 'Registro guardado exitósamente su contraseña es fulltecnologia');
   }
 
   public function edit($id)

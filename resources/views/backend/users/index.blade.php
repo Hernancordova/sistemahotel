@@ -35,7 +35,7 @@
           <div class="card-body">
             <div class="page-title ">
               <div class="card-title text-primary float-start">
-                <i class="fas fa-users"></i> Usuarios v2
+                <i class="fas fa-users"></i> Usuarios v2 sistem hotel of
               </div>
               <div>
                 <a href="{{ route('usuario.create') }}" class="btn btn-primary float-end">Nuevo <i class="fas fa-plus"></i></a>
